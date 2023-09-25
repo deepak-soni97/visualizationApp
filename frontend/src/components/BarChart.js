@@ -1,6 +1,5 @@
 import React,{useState, useEffect} from 'react'
 import {Bar} from 'react-chartjs-2'
-import {Chart as CahrtJs} from 'chart.js/auto';
 
 
 function BarChart({chartData}) {

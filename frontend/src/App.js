@@ -3,7 +3,6 @@ import BarChart from './components/BarChart';
 import LineChart from './components/LineChart';
 import PieChart from './components/PieChart';
 import BubbleChart from './components/BubbleChart';
-import { NavBar } from './components/NavBar';
 function App() {
   const [chartData, setChartData] = useState(null)
 
@@ -20,7 +19,6 @@ function App() {
   return (
     <div className="App"> 
     {chartData ? <div style={{ width: 700 }} >
-      <NavBar/>
       <BarChart chartData={chartData} />
       <LineChart chartData={chartData} />
       <PieChart chartData={chartData} />
